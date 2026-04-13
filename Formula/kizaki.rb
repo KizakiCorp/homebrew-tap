@@ -5,13 +5,13 @@ class Kizaki < Formula
 
   on_arm do
     url "https://downloads.kizaki.ai/kizaki/0.1.0/darwin-arm64/kizaki.tar.gz"
-    sha256 "230bf83ad55345419782037927e400461ceb583e204bf1b1ece279bef9a42673"
+    sha256 "c870dd146ce8f8cf9a7fdd7ce191bcc4ff36cc2f7d3d5898870e1c6b958f0888"
   end
 
   on_intel do
     # ARM binary runs on Intel Macs via Rosetta 2
     url "https://downloads.kizaki.ai/kizaki/0.1.0/darwin-arm64/kizaki.tar.gz"
-    sha256 "230bf83ad55345419782037927e400461ceb583e204bf1b1ece279bef9a42673"
+    sha256 "c870dd146ce8f8cf9a7fdd7ce191bcc4ff36cc2f7d3d5898870e1c6b958f0888"
   end
 
   def install
